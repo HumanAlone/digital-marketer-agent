@@ -250,7 +250,7 @@ def create_langchain_agent(mcp_url: str = None):
         model=os.getenv("LLM_MODEL", "openai/gpt-oss-120b"),
         openai_api_key=os.getenv("LLM_API_KEY"),
         openai_api_base=os.getenv(
-            "LLM_API_BASE", "https://foundation-models.api.cloud.ru/v1"
+            "LLM_API_BASE_URL", "https://foundation-models.api.cloud.ru/v1"
         ),
         temperature=0.7,
     )
