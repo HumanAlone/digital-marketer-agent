@@ -66,7 +66,7 @@ python start_a2a.py
 
 ### 4. Структура проекта
 ```
-DIGITAL-MARKETER-AGENT-VER2/
+digital-marketer-agent/
 ├── src/                        # Основной код агента
 │   ├── a2a_wrapper.py          # Обёртка для взаимодействия с A2A API
 │   ├── agent_task_manager.py   # Менеджер задач агента
